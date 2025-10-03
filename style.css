@@ -76,3 +76,23 @@ h1,h2,h3{font-weight: 700;}
 
 .banner h2{font-size: 2rem; margin:10px 0 20px;}
 .banner-img{width: 40%; max-width: 300px;}
+
+/* Pillars */
+
+.pillars h2{margin-bottom: 20px;}
+.grid-4{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+    gap: 20px;
+}
+
+.card{
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    transition: background 0.3s;
+}
+
+.card:hover{background: #f0fdf4;}
+.card img{width: 60px; margin-bottom: 10px;}
