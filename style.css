@@ -36,3 +36,29 @@ h1,h2,h3{font-weight: 700;}
 
 .btn-outline:hover{background: #059669; color: #fff;}
 
+/* Button */
+
+.btn{
+    background: #059669;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+}
+
+.btn:hover{background: #047857; transform: scale(1.05); }
+
+.btn-light{
+    background: #fff;
+    color: #059669;
+    padding: 8px 16px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-light:hover{background: #e6f5ee;}
+
