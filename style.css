@@ -24,3 +24,15 @@ h1,h2,h3{font-weight: 700;}
     justify-content: space-between;
     align-items: center;
 }
+
+.logo{font-size: 1.5rem;}
+.btn-outline{
+
+    border: 1px solid #059669;
+    background: transparent;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.btn-outline:hover{background: #059669; color: #fff;}
+
