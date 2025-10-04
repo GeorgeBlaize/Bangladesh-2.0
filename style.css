@@ -138,3 +138,73 @@ h1,h2,h3{font-weight: 700;}
 }
 
 .opinion th{background: #e5e7eb;}
+
+/* News */
+.news-card {
+  display: flex;
+  background: #fff;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.news-card img { width: 300px; object-fit: cover; }
+.news-card .news-text { padding: 20px; }
+.news-card.reverse { flex-direction: row-reverse; }
+.meta { color:#6b7280; font-size: 0.9rem; margin-bottom: 10px; }
+
+/* Donate */
+.donate .center { text-align: center; margin-bottom: 20px; }
+.donate-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin: 20px 0;
+}
+.don-card {
+  background: #fff;
+  padding: 20px 30px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+.don-card:hover { background:#d1fae5; }
+.don-card.active { background:#a7f3d0; }
+.donate input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin-bottom: 15px;
+}
+
+/* Newsletter */
+.newsletter {
+  background: #d7f0e5;
+  padding: 40px 20px;
+  text-align: center;
+  border-radius: 12px;
+}
+.newsletter-form {
+  margin: 20px auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+.newsletter-form input {
+  padding: 10px;
+  min-width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+.note { font-size: 0.9rem; color:#4b5563; }
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 20px;
+  background: #fff;
+  margin-top: 40px;
+}
+.footer .social a { margin: 0 8px; font-size: 1.2rem; text-decoration: none; }
