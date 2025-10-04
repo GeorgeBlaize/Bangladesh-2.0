@@ -96,3 +96,24 @@ h1,h2,h3{font-weight: 700;}
 
 .card:hover{background: #f0fdf4;}
 .card img{width: 60px; margin-bottom: 10px;}
+
+/* Vision */
+.vision .center{text-align: center; margin: 10px auto 30px; max-width: 700px;}
+.grid-3{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.vision-card{
+
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+
+}
+
+.bg-blue{background: #0284c7;}
+.bg-green{background: #16a34a;}
+.bg-yellow{background: #eab308; }
+
