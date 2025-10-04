@@ -192,14 +192,24 @@ h1,h2,h3 { font-weight: 700; }
 }
 
 
-/* .satellite-img{
-    width: 15px;
-    height:10px
-    
-} */
+
 
 .al-jazeera-logo{
     width: 10px;
     height:88px;
   
 }
+
+ .facebook {
+      background: #1877f2;
+    }
+
+    /* Instagram */
+    .instagram {
+      background: radial-gradient(circle at 30% 107%, #feda75 0%, #fa7e1e 25%, #d62976 50%, #962fbf 75%, #4f5bd5 100%);
+    }
+
+    /* X (Twitter new logo) */
+    .x {
+      background: #000;
+    }
