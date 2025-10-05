@@ -6,7 +6,7 @@ This project highlights innovation, sustainability, and progress in the vision o
 ---
 
 ## 🌐 Live Preview
-> *(Add your live URL here after hosting on GitHub Pages or Netlify)*
+> https://georgeblaize.github.io/Bangladesh-2.0/
 
 ---
 
@@ -74,3 +74,40 @@ It includes meaningful content across multiple sections — all designed with a 
 ---
 
 ## 🧱 Folder Structure
+bangladesh-2.0/
+│
+├── index.html # Main HTML file
+├── style.css # Stylesheet
+├── README.md # Project documentation
+└── assets/ # Folder for images and icons
+├── bd-monument.png
+├── al-jazeera.png
+├── satelite.png
+├── idea.png
+├── sustain.png
+├── infrastructure.png
+└── empower.png
+
+
+
+---
+
+## 💻 How to Run
+1. Clone or download this repository:
+   ```bash
+   git clone https://github.com/your-username/bangladesh-2.0.git
+
+
+🧠 Technologies Used
+
+HTML5
+
+CSS3 (Flexbox & Grid)
+
+🪄 Hover Effects
+
+| Element      | Effect                                    |
+| ------------ | ----------------------------------------- |
+| Cards        | Light background highlight                |
+| Buttons      | Smooth color transition & slight scale-up |
+| Donate Boxes | Background color changes on hover         |
